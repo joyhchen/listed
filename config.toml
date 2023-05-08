@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Liste"
+title = "Joy Chen"
 disableKinds = ["section", "categories", "tags"]
 disqusShortname = ""
 pygmentsCodeFences = false
@@ -32,7 +32,7 @@ disableHugoGeneratorInject = true
   name = "Liste"
 
 [params]
-  description = "Minimalistic Hugo blogging theme"
+  description = "Joy Chen"
   author = ""
   copyright = ""
   logo = ""
@@ -74,12 +74,6 @@ disableHugoGeneratorInject = true
     name       = "Index"
     url        = "/"
     weight     = -111
-
-  [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects/"
-    weight     = -30
 
   [[menu.main]]
     identifier = "about"

@@ -15,6 +15,9 @@
       {{ end }}</a>
       {{ end }}
       <h2 class="post">{{ .Title }}</h2>
+      {{ if .Date }}
+      <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "Jan 2, 2006" .Date }}</time>
+      {{ end }}
       {{ .Content }}
       {{ if eq .Type "posts" }}
       {{ end }}

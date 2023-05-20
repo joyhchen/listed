@@ -19,6 +19,12 @@
       <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "Jan 2, 2006" .Date }}</time>
       {{ end }}
       {{ .Content }}
+      {{ if .Params.tags }}
+      <div class="m">
+        <span>Tags |</span>
+        {{ partial "tags.html" . }}
+      </div>
+      {{ end }}
       {{ if eq .Type "posts" }}
       {{ end }}
       {{ if eq .Title "Projects" }}

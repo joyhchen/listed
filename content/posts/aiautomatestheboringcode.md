@@ -57,6 +57,7 @@ Here's a list of tasks I haven't automated at my job.
 * **Making decisions**. Once you've drafted the options, you have to pick one.
 * **Code review**. I can only point out potential bugs because I understand enough about the data models and interactions among them. Most things caught in code review aren't syntax issues; the build system would have already caught syntax issues early.
 * **Reasoning about the system**. Software engineers all know how to write code, so writing code is never the hard part. The hard part is knowing what code to write. Reasoning about all the ways the system can break is the challenge.
+* **Confirming your code solves the business problem**. Ultimately, your job isn't to write software because it's fun but because it helps your employer create value.
 
 There are more, but these are the ones that immediately come to mind. My job is mostly made up of these tasks that I can't automate. I'm not opposed to using AI to help me automate them, but I've found so far the tools I've used aren't sufficient for them. One way of interpreting this blog post is that AI is far from automating the job of a software engineer. Another way is seeing it as a list of problems that would be exciting to solve.
 
